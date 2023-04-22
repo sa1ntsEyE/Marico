@@ -1,0 +1,66 @@
+.Settings__title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.Settings__input__block {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SettingsUser__input__block {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Button__signUp {
+    background: #326CF9;
+    border-radius: 15px;
+    width: 487px;
+    height: 85px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Input__username {
+    font-size: 23px;
+    width: 480px;
+}
+
+
+@media (max-width: 520px) {
+    .Settings__title {
+        font-size: 65px;
+    }
+
+    .Input__username__block {
+        width: 230px;
+    }
+
+    .Input__username {
+        font-size: 23px;
+        width: 200px;
+    }
+
+    .Input__signUp__block button{
+        width: 300px;
+    }
+}

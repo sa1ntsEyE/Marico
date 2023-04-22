@@ -1,0 +1,117 @@
+.Blog__Heading__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.heading__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 180px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.heading__subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .heading__title {
+        font-size: 98px;
+    }
+}
+
+@media (max-width: 425px) {
+    .heading__title {
+        font-size: 72px;
+        line-height: 100px;
+    }
+}
+
+.ContentSourceCompany {
+    max-width: 1255px;
+    min-height: 1045px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 188px;
+}
+
+.ContentSource__box__block {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    max-width: 402px;
+    min-height: 243px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+
+.ContentSource__boxInfo__block {
+    padding: 35px 0 0 28px;
+}
+
+.ContentSource__boxInfoSpecial__block {
+    padding: 35px 0 0 28px;
+}
+
+.ContentSource__box__comingSoon {
+    position: absolute;
+    padding: 12.5px 14px 0 243px;
+}
+
+.ContentSource__box__comingSoon input{
+    cursor: pointer;
+}
+
+.ContentSource__box__socialNetwork {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.ContentSource__box__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: #828282;
+}
+
+.ContentSource__box__comingSoon input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A7DE3;
+}
+
+.ContentSource__box__logo {
+    margin-bottom: 17px;
+}
+
+.ContentSource__box__socialNetwork {
+    margin-bottom: 11px;
+}
+
+@media (max-width: 1235px) {
+    .ContentSourceCompany {
+        justify-content: space-around;
+    }
+}

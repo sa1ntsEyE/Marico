@@ -1,0 +1,99 @@
+
+@media (max-width: 992px) {
+    .Burger__header__logo {
+        display: flex;
+        gap: 30px;
+    }
+
+    .Burger__headers__text {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Poppins';
+    }
+
+    .Burger {
+        position: relative;
+        display: flex;
+        min-height: 110px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        padding: 24px 0  24px 0;
+        max-width: 750px;
+        gap: 30px;
+    }
+
+    .Burger-icon {
+        width: 30px;
+    }
+
+    .Burger__header__userInfo__block {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .Burger__header__logo {
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 37px;
+        line-height: 56px;
+        color: #FFFFFF;
+    }
+
+    .Burger__header__logo img {
+        margin-right: 16.89px;
+    }
+
+
+    .Burger__menu__list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Burger__menu__list li{
+        font-size: 44px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        color: #707070;
+    }
+    .Burgerasdass__LogOut {
+        display: flex;
+        flex: 1 1 30px;
+    }
+
+    .close-icon-menu {
+        display: flex;
+        position: relative;
+        flex: 0 0 30px;
+        height: 18px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .close-icon-menu::before,
+    .close-icon-menu::after {
+        content: "";
+        background-color: #FFFFFF;
+        height: 2px;
+        transform-origin: 0 0;
+    }
+
+    .close-icon-menu::before {
+        transform: rotate(35grad);
+    }
+
+    .close-icon-menu::after {
+        transform: rotate(-37grad);
+    }
+
+
+}
