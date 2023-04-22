@@ -71,6 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 create .env.local and paste this: 
 ////////////////////////////////////////////////////////////////////
+
 REACT_APP_FIREBASE_API_KEY = AIzaSyAKcaLGqnltVZNJRlFRAiAWqyXteDRjVRk
 
 REACT_APP_FIREBASE_AUTH_DOMAIN = marico-project-7b113.firebaseapp.com
@@ -82,5 +83,6 @@ REACT_APP_FIREBASE_STORAGE_BUCKET = marico-project-7b113.appspot.com
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID = 145077746073
 
 REACT_APP_FIREBASE_APP_ID = 1:145077746073:web:e9d4fc48450e94eaffbb08
+
 ////////////////////////////////////////////////////////////////////
 
